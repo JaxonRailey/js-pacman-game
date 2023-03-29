@@ -10,7 +10,7 @@ let winner   = null;
 
 if (window.innerWidth < 550 || window.innerHeight < 450) {
     const h1     = document.createElement('h2');
-    h1.innerHTML = 'Lo schermo del dispositivo è troppo piccolo!';
+    h1.innerHTML = 'Your screen is not the right size to view this game';
     document.body.append(h1);
     main.remove();
 }
