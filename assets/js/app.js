@@ -120,7 +120,7 @@ document.addEventListener('keydown', (event) => {
 main.addEventListener('animationend', function() {
 
     const h1     = document.createElement('h1');
-    h1.innerHTML = winner ? 'Hai vinto' : 'Hai perso!';
+    h1.innerHTML = winner ? 'You Win' : 'Game Over!';
     h1.classList = 'fade-in';
 
     document.body.append(h1);
