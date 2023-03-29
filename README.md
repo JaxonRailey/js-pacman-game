@@ -1,6 +1,6 @@
-# PacMan Remake
+# PacMan
 
-![PacMan Remake](https://github.com/JaxonRailey/js-pacman-game/blob/main/screenshot.png?raw=true)
+![PacMan](https://github.com/JaxonRailey/js-pacman-game/blob/main/screenshot.png?raw=true)
 
 **link**: [https://jaxonrailey-pacman-game.netlify.app/](https://jaxonrailey-pacman-game.netlify.app/)
 
