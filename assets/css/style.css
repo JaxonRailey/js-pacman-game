@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+}
+
+main {
+    height: 450px;
+    width: 550px;
+    background: radial-gradient(ellipse at center, #9ebd13 0%, #008552 100%);
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    height: 450px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h2 {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    line-height: 36px;
+}
+
+#pacman {
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/pacman.gif');
+    background-size: cover;
+    position: absolute;
+    border: 4px solid transparent;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('../img/brick.webp');
+    background-size: cover;
+    z-index: 1;
+}
+
+.point {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('../img/point.png');
+    background-size: cover;
+}
+
+.fade-in {
+    animation: fade 2s;
+    animation-fill-mode: forwards;
+}
+
+.fade-out {
+    animation: fade 2s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+}
+
+@keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
